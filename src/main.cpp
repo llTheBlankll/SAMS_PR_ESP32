@@ -3,7 +3,6 @@
 #include <Wire.h>
 #include <Config.h>
 #include <ArduinoLog.h>
-#include <LCDMenuController.h>
 
 void printToLCD(String message)
 {
@@ -58,5 +57,4 @@ void setup()
 
 void loop()
 {
-  button.tick();
 }

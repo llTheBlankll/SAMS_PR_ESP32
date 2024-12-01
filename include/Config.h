@@ -61,6 +61,9 @@ struct RFIDCard {
 	String hash;
 };
 
+// * LCD Constants
+LiquidCrystal_I2C lcd(LCD_ADDRESS, LCD_WIDTH, LCD_HEIGHT);
+
 // * RFID Constants
 MFRC522 rfid(RFID_SS_PIN, RFID_RST_PIN);
 
